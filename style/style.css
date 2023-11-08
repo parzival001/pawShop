@@ -1,0 +1,30 @@
+:root{
+    --azul: #6EB3D0;
+    --verde: #59d324;
+    --rosa: #F7B6D2;
+    --laranja: #F4A623;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+header, footer{
+    background-color: var(--azul);
+}
+
+.card{
+    padding: 0.5rem;
+    border: var(--preto) 1px solid;
+}
+
+.card button{
+    background-color: var(--rosa);
+    border: none;
+    color: var(--preto);
+}
+.card button:hover{
+    background-color: #c22b6c;
+}
+.card button:active{
+    background-color: var(--azul)!important;
+    color: var(--rosa)!important;
+}
