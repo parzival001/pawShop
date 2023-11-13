@@ -28,3 +28,9 @@ header, footer{
     background-color: var(--azul)!important;
     color: var(--rosa)!important;
 }
+input{
+    border: 1px solid black !important; 
+}
+
+
+}
